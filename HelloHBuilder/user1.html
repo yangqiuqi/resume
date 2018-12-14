@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>user</title>
+	</head>
+	<style>
+	#all {
+			width: 100%;
+			/*max-width: 1920px;
+        min-width: 1366px;*/
+			height: 100%;
+			/*position: fixed;*/
+			bottom: 0;
+		}
+		
+		#h1 {
+			padding: 40px;
+			background: lightskyblue;
+			color: #fff;
+			color: dodgerblue;
+			font-size: 40px;
+			font-style: normal;
+			text-align: center;
+			background-image: url("img/a2.png");
+			background-repeat: no-repeat;
+		}
+		
+		#n1 {
+			width: 180px;
+			height: 1800px;
+			padding: 10px;
+			vertical-align: top;
+			overflow-x: hidden;
+			transition: width 0.2s;
+			border-right: 1px solid #e2e2e2;
+			background-color: ghostwhite;
+		}
+		
+		#n1>div {
+			position: absolute;
+			left: 50px;
+		}
+		
+		.but1,
+		.but2,
+		.but3,
+		.but4,
+		.but5 {
+			width: 75px;
+			height: 28px;
+		}
+	}
+	#right {}
+	#bac {
+		width: 700px;
+		height: 850px;
+		background-image: url("img/a7.png");
+		background-repeat: no-repeat;
+		position: absolute;
+		top: 140px;
+		left: 400px;
+		border: 1px solid cornflowerblue;
+	}
+	#p1 {
+		font-size: 30px;
+		font-style: normal;
+		text-align: center;
+		
+	}
+	#name {
+		position: relative;
+		top: 10px;
+		left: 60px;
+	}
+	#table1 {
+		position: relative;
+		top: 30px;
+		left: 60px;
+	}
+	td {
+		font-size: 10px;
+	}
+	#baa {
+		width: 700px;
+		height: 850px;
+		background-image: url("img/a7.png");
+		background-repeat: no-repeat;
+		position: absolute;
+		top: 1010px;
+		left: 400px;
+		border: 1px solid cornflowerblue;
+	}
+	#table11 {
+		width: 700px;
+		height: 850px;
+		position: relative;
+		top: 80px;
+		left: 60px;
+	}
+	</style>
+
+	<body>
+		<div id="all">
+			<header id="h1">Resume Screening System</header>
+			<section>
+				<div id="n1">
+					<div id="b1">
+						<p id="b11"><input type="button" class="but1" value="edit" size="30" /></p>
+						<p> </p>
+						<p id="b12"><input type="button" class="but2" value="upload" /></p>
+						<p id="b13"><input type="button" class="but3" value="download" /></p>
+						<p id="b14"><input type="button" class="but4" value="else" /></p>
+						<p id="b15"><input type="button" class="but5" value="else" /></p>
+					</div>
+
+				</div>
+
+				<div id="right">
+					<div id="bac">
+
+						<p id="p1">CURRICULUM VITAE</p>
+
+						<div id="name">
+							<p id="p2">Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input style="border-style:none" type="text" name="name"></p>
+							<p id="p2">Job Title:&nbsp;&nbsp;&nbsp;&nbsp;<input style="border-style:none" type="text" name="job title"></p>
+							<p id="p2">Residence:&nbsp;<input style="border-style:none" style="border-style:none" type="text" name="Residence"></p>
+							<p id="p2">Nationality:&nbsp;<input style="border-style:none" type="text" name="Nationality"></p>
+						</div>
+
+						<div id="table1">
+							<table id="t1" border="1" cellspacing="0" cellpadding="0" bordercolor="lightskyblue" width="550px">
+								<tr>
+									<td colspan="4" align="center" style="background-color: lightblue;" height="25px">
+										Project Experience
+									</td>
+								</tr>
+								<tr>
+									<td colspan="4" style="background-color: gainsboro;"><textarea style="border-style:none" rows="4" style="resize:none" cols="80"></textarea></td>
+								</tr>
+								<tr>
+									<td colspan="4" align="center" style="background-color: lightblue;" height="25px">
+										Career
+									</td>
+								</tr>
+								<tr>
+									<td><input type="text" style="border-style:none" /></td>
+									<td colspan="3"><input type="text" size="50" style="border-style:none" /></td>
+								</tr>
+								<tr>
+									<td><input type="text" style="border-style:none" /></td>
+									<td colspan="3"><input type="text" size="50" style="border-style:none" /></td>
+								</tr>
+								<tr>
+									<td><input type="text" style="border-style:none" /></td>
+									<td colspan="3"><input type="text" size="50" style="border-style:none" /></td>
+								</tr>
+								<tr>
+									<td colspan="4" align="center" style="background-color: lightblue;" height="25px">
+										Industry Experience
+									</td>
+								</tr>
+								<tr>
+									<td><input type="text" style="border-style:none" /></td>
+									<td colspan="3"><input type="text" size="50" style="border-style:none" /></td>
+								</tr>
+								<tr>
+									<td><input type="text" style="border-style:none" /></td>
+									<td colspan="3"><input type="text" size="50" style="border-style:none" /></td>
+								</tr>
+								<tr>
+									<td><input type="text" style="border-style:none" /></td>
+									<td colspan="3"><input type="text" size="50" style="border-style:none" /></td>
+								</tr>
+
+								<tr>
+									<td colspan="4" align="center" style="background-color: lightblue;" height="25px">
+										Technical experience
+									</td>
+								</tr>
+								<tr>
+									<td colspan="4" width="25%" height="25px"> <input style="border-style:none" type="text" size="60" /></td>
+								</tr>
+								<tr>
+									<td colspan="4" width="25%" height="25px"> <input style="border-style:none" type="text" size="60" /></td>
+								</tr>
+								<tr>
+									<td colspan="4" width="25%" height="25px"> <input style="border-style:none" type="text" size="60" /></td>
+								</tr>
+								<tr>
+									<td colspan="4" align="center" style="background-color: lightblue;" height="25px">
+										Languages<br> The level in speaking, reading or writing is “Excellent”, “Good”, “Fair” or “Poor”
+
+									</td>
+								</tr>
+								<tr>
+									<td align="center" style="background-color: lightblue;" height="25px">
+										Language
+
+									</td>
+									<td align="center" style="background-color: lightblue;" height="25px">
+										Speak
+									</td>
+									<td align="center" style="background-color: lightblue;" height="25px">
+										Read
+									</td>
+									<td align="center" style="background-color: lightblue;" height="25px">
+										Write
+									</td>
+
+								</tr>
+								<tr>
+									<td align="center" height="25px">
+										<input type="text" size="10" style="border-style:none" />
+
+									</td>
+									<td align="center" height="25px">
+										<input type="text" size="10" style="border-style:none" />
+
+									</td>
+									<td align="center" height="25px">
+										<input type="text" size="10" style="border-style:none" />
+
+									</td>
+									<td align="center" height="25px">
+										<input type="text" size="10" style="border-style:none" />
+
+									</td>
+								</tr>
+							</table>
+
+							</table>
+						</div>
+					</div>
+
+				</div>
+
+				<div id="baa">
+
+					<div id="table11">
+						<table id="t11" border="1" cellpadding="0" cellspacing="0" bordercolor="lightskyblue" width="550px">
+
+							<tr>
+								<td colspan="4" align="center" style="background-color: lightblue;" height="25px">
+									Project Experience
+								</td>
+							</tr>
+							<tr>
+								<td align="center" style="background-color: lightblue;" width="25%" height="25px">
+									Start Date</td>
+								<td width="25%" height="25px"><input style="border-style:none" type="text" size="20" /></td>
+								<td align="center" style="background-color: lightblue;" width="25%" height="25px">
+									End Date</td>
+								<td width="25%" height="25px"><input style="border-style:none" type="text" /></td>
+
+							</tr>
+							<tr>
+								<td align="center" style="background-color: lightblue;" width="25%" height="25px">
+									Client</td>
+								<td colspan="3" width="25%" height="25px"> <input style="border-style:none" type="text" size="60" /></td>
+							</tr>
+							<tr>
+								<td align="center" style="background-color: lightblue;" width="25%" height="25px">
+									Project</td>
+								<td colspan="3" width="25%" height="25px"> <input style="border-style:none" type="text" size="60" /></td>
+							</tr>
+							<tr>
+								<td align="center" style="background-color: lightblue;" width="25%" height="25px">
+									Role</td>
+								<td colspan="3" width="25%" height="25px"> <input style="border-style:none" type="text" size="60" /></td>
+							</tr>
+							<tr>
+								<td align="center" style="background-color: lightblue;" width="25%" height="25px">
+									Responsibility</td>
+								<td colspan="3" width="25%" height="25px"> <input style="border-style:none" type="text" size="60" /></td>
+							</tr>
+							<tr>
+								<td align="center" style="background-color: lightblue;" width="25%" height="25px">
+									Start Date</td>
+								<td width="25%" height="25px"><input style="border-style:none" type="text" /></td>
+								<td align="center" style="background-color: lightblue;"  height="25px">
+									End Date</td>
+								<td width="25%" height="25px"><input style="border-style:none" type="text" /></td>
+
+							</tr>
+							<tr>
+								<td align="center" style="background-color: lightblue;" width="25%" height="25px">
+									Client</td>
+								<td colspan="3" width="25%" height="25px"> <input style="border-style:none" type="text" size="60" /></td>
+							</tr>
+							<tr>
+								<td align="center" style="background-color: lightblue;" width="25%" height="25px">
+									Project</td>
+								<td colspan="3" width="25%" height="25px"> <input style="border-style:none" type="text" size="60" /></td>
+							</tr>
+							<tr>
+								<td align="center" style="background-color: lightblue;" width="25%" height="25px">
+									Role</td>
+								<td colspan="3" width="25%" height="25px"> <input style="border-style:none" type="text" size="60" /></td>
+							</tr>
+							<tr>
+								<td align="center" style="background-color: lightblue;" width="25%" height="25px">
+									Responsibility</td>
+								<td colspan="3" width="25%" height="25px"> <input style="border-style:none" type="text" size="60" /></td>
+							</tr>
+							<tr>
+								<td align="center" style="background-color: lightblue;" width="25%" height="25px">
+									Start Date</td>
+								<td width="25%" height="25px"><input style="border-style:none" type="text" /></td>
+								<td align="center" style="background-color: lightblue;" width="25%" height="25px">
+									End Date</td>
+								<td width="25%" height="25px"><input style="border-style:none" type="text" /></td>
+
+							</tr>
+							<tr>
+								<td align="center" style="background-color: lightblue;" width="25%" height="25px">
+									Client</td>
+								<td colspan="3" width="25%" height="25px"> <input style="border-style:none" type="text" size="60" /></td>
+							</tr>
+							<tr>
+								<td align="center" style="background-color: lightblue;" width="25%" height="25px">
+									Project</td>
+								<td colspan="3" width="25%" height="25px"> <input style="border-style:none" type="text" size="60" /></td>
+							</tr>
+							<tr>
+								<td align="center" style="background-color: lightblue;" width="25%" height="25px">
+									Role</td>
+								<td colspan="3" width="25%" height="25px"> <input style="border-style:none" type="text" size="60" /></td>
+							</tr>
+							<tr>
+								<td align="center" style="background-color: lightblue;" width="25%" height="25px">
+									Responsibility</td>
+								<td colspan="3" width="25%" height="25px"> <input style="border-style:none" type="text" size="60" /></td>
+							</tr>
+							<tr>
+								<td colspan="4" align="center" style="background-color: lightblue;" height="25px">
+									Training/Certification
+								</td>
+							</tr>
+							<tr>
+								<td colspan="4" height="25px">
+									<input style="border-style:none" type="text" size="70" />
+								</td>
+							</tr>
+							<tr>
+								<td colspan="4" height="25px">
+									<input style="border-style:none" type="text" size="70" />
+								</td>
+							</tr>
+							<tr>
+								<td colspan="4" align="center" style="background-color: lightblue;" height="25px">
+									Education
+								</td>
+							</tr>
+							<tr>
+								<td colspan="4" height="25px">
+									<input style="border-style:none" type="text" size="70" />
+								</td>
+							</tr>
+							<tr>
+								<td colspan="4" height="25px">
+									<input style="border-style:none" type="text" size="70" />
+								</td>
+							</tr>
+							<tr>
+								<td colspan="4" align="center" style="background-color: lightblue;" height="25px">
+									Others
+								</td>
+							</tr>
+							
+							<tr>
+								<td colspan="4" height="25px">
+									<input style="border-style:none" type="text" size="70" />
+								</td>
+							</tr>
+							<tr>
+								<td colspan="4" height="25px">
+									<input style="border-style:none" type="text" size="70" />
+								</td>
+							</tr>
+						</table>
+
+					</div>
+				</div>
+
+		</div>
+
+		</section>
+
+		</div>
+	</body>
+
+</html>

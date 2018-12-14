@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>admin</title>
+	</head>
+	<style>
+	#all {
+			width: 100%;
+			height: 100%;
+			bottom: 0;
+		}
+		
+		#h1 {
+			padding: 40px;
+			background: lightskyblue;
+			color: #fff;
+			color: dodgerblue;
+			font-size: 40px;
+			font-style: normal;
+			text-align: center;
+			background-image: url("img/a2.png");
+			background-repeat: no-repeat;
+		}
+		
+		#n1 {
+			width: 180px;
+			height: 600px;
+			padding: 10px;
+			vertical-align: top;
+			overflow-x: hidden;
+			transition: width 0.2s;
+			border-right: 1px solid #e2e2e2;
+			background-color: ghostwhite;
+		}
+		
+		#n1>div {
+			position: absolute;
+			left: 50px;
+		}
+		
+		.but1,
+		.but2,
+		.but3,
+		.but4,
+		.but5 {
+			width: 75px;
+			height: 28px;
+		}
+	}
+	#p1 {
+		font-size: 30px;
+		font-family: arial;
+		text-align: center;
+	}
+	#name {
+		position: relative;
+		top: 10px;
+		left: 60px;
+	}
+	td {
+		font-size: 10px;
+	}
+	#top {
+		width: 500px;
+		height: 50px;
+		position: absolute;
+		top: 150px;
+		left: 450px;
+	}
+	#table_all {
+		width: 700px;
+		height: 500px;
+		position: absolute;
+		top: 250px;
+		left: 300px;
+	}
+	td,
+	th {
+		text-align: center;
+		height: 40px;
+	}
+	#b11,#select{
+		text-align: center;
+		font-size: 20px;
+		}
+	</style>
+
+	<body>
+		<div id="all">
+			<header id="h1">Resume Screening System</header>
+			<section>
+				<div id="n1">
+					<div id="b1">
+						<p id="b11"><input type="button" class="but1" value="edit" size="30" /></p>
+
+						<p id="b12"><input type="button" class="but2" value="query" /></p>
+
+						<p id="b14"><input type="button" class="but4" value="download" /></p>
+						<p id="b15"><input type="button" class="but5" value="delete" /></p>
+						<p id="b15"><input type="button" class="but5" value="select" /></p>
+					</div>
+
+				</div>
+
+				<div id="right">
+
+					<div id="top">
+						<p id="b11">
+							筛选条件：<select id="select">
+								<option>-please choice-</option>
+								<option>name</option>
+								<option>project</option>
+								<option>department</option>
+								<option>level</option>
+							</select>
+							
+						</p>
+					</div>
+					<div id="table_all">
+						<table border="1" cellpadding="0" cellspacing="0" bordercolor="gray" width="900px">
+							<tr>
+								<th>name</th>
+								<th>project</th>
+								<th>department</th>
+								<th>level</th>
+							</tr>
+							<tr>
+								<td>
+									<a href="">YangQiuqi</a>
+								</td>
+								<td>
+									training
+								</td>
+								<td>
+									cloud
+								</td>
+								<td>
+									level
+								</td>
+							</tr>
+							<tr>
+								<td><a href="">ZhangSan</a></td>
+								<td>training</td>
+								<td>cloud</td>
+								<td>level3</td>
+							</tr>
+							<tr>
+								<td><a href="">Tone</a></td>
+								<td>training</td>
+								<td>rdc</td>
+								<td>level3</td>
+							</tr>
+							<tr>
+								<td><a href="">sunnt</a></td>
+								<td>training</td>
+								<td>hcm</td>
+								<td>level3</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+
+						</table>
+
+					</div>
+
+				</div>
+
+			</section>
+
+		</div>
+	</body>
+
+</html>
